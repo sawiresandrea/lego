@@ -7,11 +7,12 @@ html
   body
     header.header
       h1 #{title}
+    body
       .model
         each img in model.istruzioni
           .model-image(style=`background: url('/img/${img}') top center no-repeat; background-size: cover;`)
         .model-details
-          h1.model-name
+          h1.model-name(style='text-align: center;')
             | #{model.nome}
-          h2.model-info
+          h2.model-info(style='text-align: center;')
             | #{model.info}
