@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    link(rel="stylesheet", href="/css/style.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title #{title}
+  body
+    header.header
+      h1 #{title}
+    .container
+      each model in models
+        .model
+          .model-image(style=`background: url('/img/${model.img}') top center no-repeat; background-size: cover;`)
+          h2.model-name
+            | #{model.nome}
+          a(href=`/model?id=${model.id}`)
+            | View Model

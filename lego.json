@@ -1,0 +1,27 @@
+{
+    "models":[
+        {
+            "id": "1",
+            "nome": "Supply Wagon",
+            "img": "supply_wagon.jpg",
+            "info": "è un bel vagone",
+            "istruzioni": ["supply_wagon_istruzione_1.jpg", "supply_wagon_istruzione_2.jpg"]
+        },
+
+        {
+            "id": "2",
+            "nome": "Catapult",
+            "img": "catapult.jpg",
+            "info": "è una bella catapulta",
+            "istruzioni": ["catapult_istruzione_1.jpg", "catapult_istruzione_2.jpg"]
+        },
+
+        {
+            "id": "3",
+            "nome": "Battle Dragon",
+            "img": "battle_dragon.jpg",
+            "info": "è una bella battaglia contro il drago",
+            "istruzioni": ["battle_dragon_istruzione_1.jpg", "battle_dragon_istruzione_2.jpg"]
+        }
+    ]
+}
